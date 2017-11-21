@@ -7,8 +7,6 @@ pipeline {
         FOO = "BAR"
     }
 
-    agent { label "master" }
-
     stages {
         stage("foo") {
             steps {
